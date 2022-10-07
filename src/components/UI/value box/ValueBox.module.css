@@ -1,0 +1,17 @@
+.container {
+  width: 30%;
+  height: 10vh;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.6rem 0;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.container:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,21 @@
+.container {
+  height: var(--main-height);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(16, 44, 98);
+}
+
+.container .headline {
+  color: white;
+  font-size: 55px;
+}
+
+.container .boxes {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}

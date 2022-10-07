@@ -1,0 +1,21 @@
+.container {
+  background: linear-gradient(
+    to right,
+    rgb(121, 27, 194),
+    rgb(121, 27, 194),
+    rgb(99, 23, 173),
+    rgb(70, 18, 143) 40%
+  );
+  height: var(--main-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1 {
+  transform: translateY(-80%);
+  font-size: 70px;
+  margin-top: 0;
+  padding-top: 1rem;
+  color: rgb(255, 241, 255);
+}

@@ -1,0 +1,46 @@
+.header {
+  max-width: 100%;
+  height: 5rem;
+  max-height: initial;
+  display: flex;
+  padding: 0 3%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  color: rgb(47, 74, 116);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header .company-name {
+  cursor: pointer;
+  font-family: "Kelvetica Nobis";
+  font-size: 1.5rem;
+}
+
+.header div a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.5rem;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav li {
+  margin-left: 1.5rem;
+  font-size: 1.25rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--color-nav);
+}
+
+li {
+  cursor: pointer;
+  font-family: "Kelvetica Nobis";
+}
