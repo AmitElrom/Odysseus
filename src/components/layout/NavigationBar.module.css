@@ -44,3 +44,7 @@ li {
   cursor: pointer;
   font-family: "Kelvetica Nobis";
 }
+
+svg {
+  width: 60%;
+}

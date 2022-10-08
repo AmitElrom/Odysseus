@@ -10,3 +10,7 @@
   color: rgb(22, 23, 41);
   font-size: 55px;
 }
+
+.container .form {
+  width: 30%;
+}

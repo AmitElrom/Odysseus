@@ -1,0 +1,22 @@
+.form-input {
+  display: block;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+.form-input input {
+  height: 2rem;
+  width: 100%;
+  font-size: 1.2em;
+  border-radius: 0.2rem;
+  padding: 0.2rem;
+  border-color: rgb(22, 23, 41);
+}
+
+.invalid input {
+  border-color: red;
+}
+
+.invalid p {
+  color: red;
+}
