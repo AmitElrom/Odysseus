@@ -12,6 +12,30 @@
   font-weight: 600;
 }
 
+@media screen and (max-width: 1100px) {
+  .container {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1000px) {
+  .container {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 60%;
+  }
+}
+
 .container:hover {
   transform: scale(1.1);
 }

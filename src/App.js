@@ -24,20 +24,12 @@ function App() {
   return (
     <Layout className="App">
       {/* <button onClick={toBottomHandler}>to bottom</button> */}
-      <div ref={openingDivRef}>
-        <Opening ref={openingRef} />
-      </div>
-      <div>
-        <About />
-      </div>
-      <div>
-        <Values />
-      </div>
-      <div>
-        <Contact />
-      </div>
+      <Opening ref={openingRef} />
+      <About />
+      <Values />
+      <Contact />
       {/* <button onClick={toTopHandler}>to Top</button> */}
-    </Layout>
+    </Layout >
   );
 }
 

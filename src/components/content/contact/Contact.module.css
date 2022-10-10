@@ -14,3 +14,27 @@
 .container .form {
   width: 30%;
 }
+
+@media screen and (min-width: 1000px) and (max-width: 1100px) {
+  .container .form {
+    width: 35%;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1000px) {
+  .container .form {
+    width: 37%;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  .container .form {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .container .form {
+    width: 45%;
+  }
+}

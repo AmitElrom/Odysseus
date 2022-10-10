@@ -7,15 +7,29 @@
     rgb(70, 18, 143) 40%
   );
   height: var(--main-height);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .container h1 {
-  transform: translateY(-80%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(90%);
   font-size: 70px;
   margin-top: 0;
   padding-top: 1rem;
   color: rgb(255, 241, 255);
+}
+
+@media screen and (max-width: 1150px) {
+  .container h1 {
+    margin: 0 10%;
+    transform: translateY(40%);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .container h1 {
+    margin: 0 10%;
+    transform: translateY(30%);
+  }
 }
