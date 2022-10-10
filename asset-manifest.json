@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Odysseus/static/css/main.e402da9e.css",
-    "main.js": "/Odysseus/static/js/main.a792d452.js",
+    "main.css": "/Odysseus/static/css/main.a2bcfebb.css",
+    "main.js": "/Odysseus/static/js/main.8efaef6d.js",
     "static/js/787.bfce665b.chunk.js": "/Odysseus/static/js/787.bfce665b.chunk.js",
     "index.html": "/Odysseus/index.html",
-    "main.e402da9e.css.map": "/Odysseus/static/css/main.e402da9e.css.map",
-    "main.a792d452.js.map": "/Odysseus/static/js/main.a792d452.js.map",
+    "main.a2bcfebb.css.map": "/Odysseus/static/css/main.a2bcfebb.css.map",
+    "main.8efaef6d.js.map": "/Odysseus/static/js/main.8efaef6d.js.map",
     "787.bfce665b.chunk.js.map": "/Odysseus/static/js/787.bfce665b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e402da9e.css",
-    "static/js/main.a792d452.js"
+    "static/css/main.a2bcfebb.css",
+    "static/js/main.8efaef6d.js"
   ]
 }
