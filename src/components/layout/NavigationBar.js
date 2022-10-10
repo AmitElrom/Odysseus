@@ -19,7 +19,7 @@ const NavigationBar = () => {
             <style
               dangerouslySetInnerHTML={{
                 __html:
-                  "\n      .cls-1 {\n        fill: #4169e1;\n      }\n      .cls-1,\n      .cls-2,\n      .cls-3 {\n        stroke: #2f4ba1;\n        stroke-linecap: round;\n        stroke-linejoin: round;\n        stroke-width: 7px;\n      }\n      .cls-2 {\n        fill: none;\n      }\n      .cls-3,\n      .cls-4 {\n        fill: #2f4ba1;\n      }\n      .cls-4 {\n        font-size: 211.68px;\n        font-family: NugoSans-Light, Nugo Sans;\n        font-weight: 300;\n      }\n    ",
+                  "\n      .cls-1 {\n        fill: #4169e1;\n      }\n      .cls-1,\n      .cls-2,\n      .cls-3 {\n        stroke: #2f4ba1;\n        stroke-linecap: round;\n        stroke-linejoin: round;\n        stroke-width: 10px;\n      }\n      .cls-2 {\n        fill: none;\n      }\n      .cls-3,\n      .cls-4 {\n        fill: #2f4ba1;\n      }\n      .cls-4 {\n        font-size: 157px;\n        font-family: ElMessiri-Bold, El Messiri;\n        font-weight: 700;\n        letter-spacing: 0.07em;\n      }\n      .cls-5 {\n        letter-spacing: 0.04em;\n      }\n      .cls-6 {\n        letter-spacing: 0.07em;\n      }\n      .cls-7 {\n        letter-spacing: 0.08em;\n      }\n    ",
               }}
             />
           </defs>
@@ -94,8 +94,17 @@ const NavigationBar = () => {
             />
           </g>
           <g id="Text">
-            <text className="cls-4" transform="translate(586.01 403.26)">
-              Odysseus
+            <text className="cls-4" transform="translate(616.65 335.65)">
+              O
+              <tspan className="cls-5" x="125.91" y={0}>
+                D
+              </tspan>
+              <tspan className="cls-6" x="247.59" y={0}>
+                Y
+              </tspan>
+              <tspan className="cls-7" x="358.11" y={0}>
+                SSEUS
+              </tspan>
             </text>
           </g>
         </svg>
