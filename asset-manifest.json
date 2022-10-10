@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Odysseus/static/css/main.e402da9e.css",
+    "main.js": "/Odysseus/static/js/main.a792d452.js",
+    "static/js/787.bfce665b.chunk.js": "/Odysseus/static/js/787.bfce665b.chunk.js",
+    "index.html": "/Odysseus/index.html",
+    "main.e402da9e.css.map": "/Odysseus/static/css/main.e402da9e.css.map",
+    "main.a792d452.js.map": "/Odysseus/static/js/main.a792d452.js.map",
+    "787.bfce665b.chunk.js.map": "/Odysseus/static/js/787.bfce665b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e402da9e.css",
+    "static/js/main.a792d452.js"
+  ]
+}
