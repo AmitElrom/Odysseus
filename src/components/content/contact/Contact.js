@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useRef } from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
+import emailjs from '@emailjs/browser';
 
 import classes from "./Contact.module.css";
 import FormInput from "./FormInput";
@@ -27,6 +28,9 @@ const FORM_INPUTS = [
 ];
 
 const Contact = () => {
+
+  const formRef = useRef();
+
   const formik = useFormik({
     initialValues: {
       firstName: "",
@@ -43,7 +47,13 @@ const Contact = () => {
       email: Yup.string().email("כתובת מייל לא תקינה").required("שדה חובה"),
     }),
     onSubmit: (values) => {
-      console.log(values);
+      console.log(formRef.current);
+      emailjs.sendForm('service_vuhdi36', 'template_zpqi7e9', formRef.current, 'tRNxTkBc4NAZZnx1o')
+        .then((result) => {
+          console.log(result.text);
+        }, (error) => {
+          console.log(error.text);
+        });
     },
   });
 
@@ -67,7 +77,7 @@ const Contact = () => {
   return (
     <div className={classes.container}>
       <h2 className={classes.headline}>צור קשר</h2>
-      <form className={classes.form} onSubmit={formik.handleSubmit}>
+      <form ref={formRef} className={classes.form} onSubmit={formik.handleSubmit}>
         {formInputsList}
         <SendButton type="submit">שלח</SendButton>
       </form>

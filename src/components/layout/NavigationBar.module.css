@@ -16,7 +16,7 @@
 .header .company-name {
   cursor: pointer;
   font-family: "Kelvetica Nobis";
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
 }
 
 .header div a {
