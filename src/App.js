@@ -1,34 +1,22 @@
-import React, { useRef, Fragment } from "react";
+import React from "react";
 import "./App.css";
+
 import Layout from "./components/layout/Layout";
 import Opening from "./components/content/opening/Opening";
 import About from "./components/content/about/About";
 import Values from "./components/content/values/Values";
 import Contact from "./components/content/contact/Contact";
+import ValueModal from './components/UI/modals/value modal/ValueModal'
 
 function App() {
-  // const bottomRef = useRef();
-
-  // const toBottomHandler = () => {
-  //   bottomRef.current.scrollIntoView({ behavior: "smooth" });
-  // };
-
-  const openingRef = useRef();
-  const openingDivRef = useRef();
-
-  const toTopHandler = () => {
-    // openingRef.current.scroll();
-    openingDivRef.current.scrollIntoView({ behavior: "smooth" });
-  };
 
   return (
-    <Layout className="App">
-      {/* <button onClick={toBottomHandler}>to bottom</button> */}
-      <Opening ref={openingRef} />
-      <About />
-      <Values />
-      <Contact />
-      {/* <button onClick={toTopHandler}>to Top</button> */}
+    <Layout className="App" >
+      <Opening id="opening" />
+      <About id="about" />
+      <Values id="values" />
+      <Contact id="contact" />
+      <ValueModal />
     </Layout >
   );
 }

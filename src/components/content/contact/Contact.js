@@ -27,7 +27,7 @@ const FORM_INPUTS = [
   },
 ];
 
-const Contact = () => {
+const Contact = ({ id }) => {
 
   const formRef = useRef();
 
@@ -75,7 +75,7 @@ const Contact = () => {
   });
 
   return (
-    <div className={classes.container}>
+    <div className={classes.container} id={id} >
       <h2 className={classes.headline}>צור קשר</h2>
       <form ref={formRef} className={classes.form} onSubmit={formik.handleSubmit}>
         {formInputsList}

@@ -5,9 +5,9 @@ import classes from './Values.module.css';
 
 const VALUES_DATA = ['יושרה', 'חדשנות טכנולוגית', 'יצירתיות', 'למידה מתמדת'];
 
-const Values = () => {
+const Values = ({ id }) => {
     return (
-        <div className={classes.container}>
+        <div className={classes.container} id={id} >
             <h2 className={classes.headline}>הערכים שלנו</h2>
             <div className={classes.boxes}>
                 {VALUES_DATA.map((value, index) => {

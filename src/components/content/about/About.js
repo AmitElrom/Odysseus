@@ -2,9 +2,9 @@ import React from "react";
 
 import classes from "./About.module.css";
 
-const About = () => {
+const About = ({ id }) => {
   return (
-    <div className={classes.container}>
+    <div className={classes.container} id={id} >
       <h2 className={classes.headline}>אודות</h2>
       <div className={classes.content}>
         הצוות שלנו מנתח את שווקי המניות והסחורות ברחבי העולם בעקביות ובמשמעת.
