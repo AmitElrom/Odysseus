@@ -1,21 +1,8 @@
 import React, { useEffect, useState } from "react";
 import classes from "./ValueModal.module.css";
 
-const VALUES = [
-    { value: 'יושרה', text: "" },
-    { value: 'חדשנות-טכנולוגית', text: "" },
-    { value: 'יצירתיות', text: "" },
-    { value: 'למידה-מתמדת', text: "" },
-];
 
-function Modal({ setOpenModal, value }) {
-
-    const [text, setText] = useState("");
-
-    useEffect(() => {
-        const rightValue = VALUES.find(val => val.value === value);
-        setText(rightValue);
-    }, [value])
+function Modal({ setOpenModal, value, text }) {
 
     return (
         <div className={classes.modalBackground}>
